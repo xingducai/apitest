@@ -22,7 +22,7 @@ public class DeviceExample {
 
         var page = new JSONObject();
         page.put("nowPage" ,1);
-        page.put("limit" ,2);
+        page.put("limit" ,9);
         var content = new JSONObject();
         content.put("page", page);
 

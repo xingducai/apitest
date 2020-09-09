@@ -20,7 +20,7 @@ public class OrderErrExample {
 
         var page = new JSONObject();
         page.put("nowPage" ,1);
-        page.put("limit" ,2);
+        page.put("limit" ,1);
         var content = new JSONObject();
         content.put("page", page);
 
